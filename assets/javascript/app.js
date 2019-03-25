@@ -1,37 +1,27 @@
 var questions = [
 {
     "question": "How many NBA Championships do the Bulls have?",
-    "option1": "3",
-    "option2": "8",
-    "option3": "6",
-    "answer": "2"
+    "options": ["3","8","6"],
+    "answer": "6"
 },
 {
     "question": "What team plays in Houston?",
-    "option1": "Rockets",
-    "option2": "Pistons",
-    "option3": "Bucks",
-    "answer": "1"
+    "options": ["Rockets","Bucks","Pistons"],
+    "answer": "Rockets"
 },
 {
     "question": "Which player duo makes up 'The Splash Brothers'?",
-    "option1": "Stephen Curry and Klay Thompson",
-    "option2": "Damian Lillard and Cj McCollum",
-    "option3": "James Harden and Chris Paul",
-    "answer": "1",
+    "options": ["Stephen Curry and Klay Thompson","Damian Lillard and Cj McCollum","James Harden and Chris Paul"],
+    "answer": "Stephen Curry and Klay Thompson",
 },
 {
     "question": "Which team has LeBron James not played on?",
-    "option1": "Cleveland Caviliers",
-    "option2": "Brooklyn Nets",
-    "option3": "Miami Heat",
-    "answer": "2",
+    "options": ["Cleveland Caviliers","Miami Heat","Brooklyn Nets"],
+    "answer": "Brooklyn Nets",
 },
 {
     "question": "Which is not a basketball position? ",
-    "option1": "Center",
-    "option2": "Gaurd",
-    "option3": "Shooter",
-    "answer": "3",
+    "options": ["Center","Gaurd","Shooter"],
+    "answer": "Shooter",
 },
-}]
+]
