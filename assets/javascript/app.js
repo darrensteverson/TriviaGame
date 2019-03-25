@@ -1,4 +1,18 @@
-var questions = [
+// Creating the timer
+var sec = 45;
+var time = setInterval(myTimer, 1000);
+
+function myTimer() {
+    document.getElementById('timer').innerHTML = sec ;
+    sec--;
+    if (sec == -1) {
+        clearInterval(time);
+        alert("Times Out!");
+    }
+}
+
+// Questions and Answers
+var quizQuestions = [
 {
     "question": "How many NBA Championships do the Bulls have?",
     "options": ["3","8","6"],
@@ -25,3 +39,17 @@ var questions = [
     "answer": "Shooter",
 },
 ]
+// To display elements on screen
+var quizContainer = document.getElementById('quiz');
+var resultsContainer = document.getElementById('results');
+var submitButton = document.getElementById('submit');
+
+
+// Quiz Content
+function nbaquestions (nbaquestions){
+
+    for (i = 0; i < nbaquestions.length; i++){
+        var quizQuestions = nbaquestions [i];
+        var answer = quizQuestions.length;
+    }
+    ;}
