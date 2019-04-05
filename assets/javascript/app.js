@@ -1,3 +1,10 @@
+
+// To display elements on screen
+var quizText = document.getElementById('quiz');
+var resultsText = document.getElementById('results');
+var submitButton = document.getElementById('submit');
+
+
 // Creating the timer
 var sec = 45;
 var time = setInterval(myTimer, 1000);
@@ -97,14 +104,6 @@ function quizContent(questions, quizText, resultsText, submitButton) {
     }
 
     viewQuestions(questions, quizText)
-
-
-
-
-// To display elements on screen
-var quizText = document.getElementById('quiz');
-var resultsText = document.getElementById('results');
-var submitButton = document.getElementById('submit');
 
 }
 
